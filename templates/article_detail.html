@@ -8,8 +8,10 @@
 </div>
 
 <p>
+    {% if article.author.pk == request.user.pk %}
     <a href="{% url 'article_edit' object.pk %}">Edit</a> |
     <a href="{% url 'article_delete' object.pk %}">Delete</a>
+    {% endif %}
 </p>
 
 <p>Back to <a href="{% url 'article_list' %}">All Articles</a>.</p>
