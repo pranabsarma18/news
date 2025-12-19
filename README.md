@@ -70,7 +70,8 @@ The project follows Django’s **Model–View–Template (MVT)** architecture an
 
 The project follows Django’s standard project structure and is organized into multiple reusable applications to ensure modularity, scalability, and maintainability.
 
-```news/
+```
+news/
 │
 ├── accounts/        # Custom user model and authentication logic
 ├── articles/        # News article CRUD functionality
@@ -114,7 +115,7 @@ This architectural pattern improves code readability, reusability, and long-term
 
 The following environment variables are required to run the application in a **production environment**:
 
-```env
+```
 SECRET_KEY=your_secret_key
 DEBUG=False
 DATABASE_URL=postgres://...
@@ -125,13 +126,14 @@ DATABASE_URL=postgres://...
 ## 🧪 Local Installation & Setup
 
 ### Clone the Repository
-```bash
+```
 git clone https://github.com/pranabsarma18/news.git
 cd news
 ```
 
 ### Create and Activate Virtual Environment
-```python -m venv venv
+```
+python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 ```
@@ -140,7 +142,8 @@ venv\Scripts\activate      # Windows
 ```pip install -r requirements.txt```
 
 ### Apply Database Migrations
-```python manage.py migrate
+```
+python manage.py migrate
 python manage.py runserver
 ```
 
