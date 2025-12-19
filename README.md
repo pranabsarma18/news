@@ -1,8 +1,7 @@
 # 📰 News Web Application using Django
 
-A full-stack **News Publishing Web Application** developed using Django.  
-The application allows users to read and manage news articles through a clean, secure, and scalable backend system.  
-It is deployed on Heroku with PostgreSQL as the production database.
+A full-stack **News Publishing Web Application** developed using Django.The application allows users to read and manage news articles through a clean, secure, and scalable backend system.  
+  It is deployed on Heroku with PostgreSQL as the production database.
 
 🌐 **Live Website:**  
 https://protected-coast-00893-5854a6906bdb.herokuapp.com/
@@ -14,8 +13,7 @@ https://github.com/pranabsarma18/news
 
 ## 📖 Abstract
 
-The **News Web Application** is a Django-based web platform designed to demonstrate real-world backend web development using Python.  
-It provides features such as user authentication, article management, database integration, and cloud deployment.
+The **News Web Application** is a Django-based web platform designed to demonstrate real-world backend web development using Python. It provides features such as user authentication, article management, database integration, and cloud deployment.
 
 The project follows Django’s **Model–View–Template (MVT)** architecture and uses environment-based configuration for production readiness.
 
@@ -139,7 +137,9 @@ venv\Scripts\activate      # Windows
 ```
 
 ### Install Dependencies
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ### Apply Database Migrations
 ```
@@ -148,10 +148,14 @@ python manage.py runserver
 ```
 
 ### Run Development Server
-```http://127.0.0.1:8000/```
+```
+http://127.0.0.1:8000/
+```
 
 ### Open your browser and visit:
-```http://127.0.0.1:8000/```
+```
+http://127.0.0.1:8000/
+```
 
 ## 🌍 Deployment on Heroku
 
@@ -180,7 +184,7 @@ This setup ensures the application runs reliably and securely in a production en
 ## 🔮 Future Enhancements
 
 - Add article categories and tags
-- Implement comments and likes system
+- Implement likes system
 - Add search and filtering functionality
 - Enable image uploads for articles
 - Improve UI and responsiveness
