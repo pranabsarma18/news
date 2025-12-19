@@ -70,7 +70,7 @@ The project follows Django’s **Model–View–Template (MVT)** architecture an
 
 The project follows Django’s standard project structure and is organized into multiple reusable applications to ensure modularity, scalability, and maintainability.
 
-news/
+```news/
 │
 ├── accounts/        # Custom user model and authentication logic
 ├── articles/        # News article CRUD functionality
@@ -88,7 +88,7 @@ news/
 ├── Procfile         # Heroku process definition
 ├── runtime.txt      # Python runtime version
 └── requirements.txt # Project dependencies
-
+```
 This structure separates concerns between authentication, content management, and static pages, making the application easy to extend and maintain.
 
 ---
